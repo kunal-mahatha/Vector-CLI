@@ -56,7 +56,7 @@ This is a CLI tool for operation on Vector Quantities.
   
   [![MasterHead](https://raw.githubusercontent.com/kunal-mahatha/Vector-CLI/main/img/2.jpg?token=APVZAS276FUA2OK36REFPB3A3X334)](https://username.github.io)
   
-   **1. Find the Position Vector**
+   ### 1. Find the Position Vector
    - Type "1"
    ```python
    Enter your Choice : 1
@@ -73,7 +73,7 @@ This is a CLI tool for operation on Vector Quantities.
    ```python
    The position vector is along -1i + 1j + 1k
    ```
-   **2. Find the Magnitude of the Vector**
+   ### 2. Find the Magnitude of the Vector
    - Type "2"
    ```python
    Enter your Choice : 2
@@ -86,7 +86,7 @@ This is a CLI tool for operation on Vector Quantities.
    ```python
    The Magnitude of the Vector is  3.74
    ```
-   **3. Find if the vectors are perpendicular**
+   ## 3. Find if the vectors are perpendicular
    - Type "3"
    ```python
    Enter your Choice : 3
@@ -103,7 +103,7 @@ This is a CLI tool for operation on Vector Quantities.
    ```python
    Nope ! The Vectors are not Perpendicular
    ```
-   **4. Find the Direction of the vector**
+   ### 4. Find the Direction of the vector
    - Type "4"
    ```python
    Enter your Choice : 4
@@ -115,6 +115,11 @@ This is a CLI tool for operation on Vector Quantities.
    - Output
    ```python
    The Direction of the vector is along 0.07i + 0.14j + 0.21k
+   ```
+   ### 5. Exit
+   - Type "5"
+   ```python
+   Enter your Choice : 5
    ```
  ---
    
