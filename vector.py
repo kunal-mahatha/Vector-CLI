@@ -7,8 +7,8 @@ class Vector:
     
     @classmethod
     def pos_vector(cls):
-        x1, y1, z1 = input("Enter the position 1 :").split(',')
-        x2, y2, z2 = input("Enter the position 2 :").split(',')
+        x1, y1, z1 = input("Enter the position 1 : ").split(',')
+        x2, y2, z2 = input("Enter the position 2 : ").split(',')
         a = int(x1) - int(x2)
         b = int(y1) - int(y2)
         c = int(z1) - int(z2)
@@ -16,8 +16,8 @@ class Vector:
 
     @classmethod
     def is_perpendicular(cls):
-        x1, y1, z1 = input("Enter the position 1 :").split(',')
-        x2, y2, z2 = input("Enter the position 2 :").split(',')
+        x1, y1, z1 = input("Enter the position 1 : ").split(',')
+        x2, y2, z2 = input("Enter the position 2 : ").split(',')
         a = int(x1)*int(x2) + int(y1)*int(y2) + int(z1)+int(z2)
         if a == 0:
             print("Yes Both the Vectors are Perpendicular")
@@ -48,7 +48,7 @@ class Vector:
         *******************************************
         |                                         |
         |         A tool for operation on         |
-        |            vector operation.            |
+        |            vector quantities            |
         |                                         |
         |         Hit Enter to Continue:          |
         |_________________________________________|
