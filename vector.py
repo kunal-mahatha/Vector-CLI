@@ -93,6 +93,10 @@ class Vector:
             Vector.direction()
         if num == 3:
             Vector.is_perpendicular()
+        if num == 5:
+            quit()
+        if num > 5:
+            print("Please Enter Valid Input")
         Vector.menu_option()
         
 
