@@ -1,3 +1,4 @@
+import os
 class Vector:
 
     def __init__(self, x, y, z):
@@ -14,6 +15,18 @@ class Vector:
         c = int(z1) - int(z2)
         print(f" The position vector is along {a}i + {b}j + {c}k")
 
+        name = []
+        print("""
+        **************************************************
+        |----------HIT ENTER TO RETURN TO MENU-----------|
+        **************************************************
+        
+        """)
+        n = input()
+        name.append(n)
+        if type(name) is list:
+            Vector.menu_option()
+
     @classmethod
     def is_perpendicular(cls):
         x1, y1, z1 = input("Enter the position 1 : ").split(',')
@@ -24,6 +37,18 @@ class Vector:
         else:
             print(" Nope ! The Vectors are not Perpendicular")
 
+        name = []
+        print("""
+        **************************************************
+        |----------HIT ENTER TO RETURN TO MENU-----------|
+        **************************************************
+        
+        """)
+        n = input()
+        name.append(n)
+        if type(name) is list:
+            Vector.menu_option()
+
     @classmethod
     def direction(cls):
         x, y, z = input("Enter the position separated by comma : ").split(',')
@@ -33,14 +58,39 @@ class Vector:
         k = int(z)/a
         print(f" The Direction of the vector is along {round(i, 2)}i + {round(j, 2)}j + {round(k, 2)}k")
 
+        name = []
+        print("""
+        **************************************************
+        |----------HIT ENTER TO RETURN TO MENU-----------|
+        **************************************************
+        
+        """)
+        n = input()
+        name.append(n)
+        if type(name) is list:
+            Vector.menu_option()
+
     @classmethod
     def magnitude(cls):
         x, y, z = input("Enter the position separated by comma : ").split(',')
         a = int(x)**2 + int(y)**2 + int(z)**2
         print(f" The Magnitude of the Vector is  {round((a**(0.5)), 2)}")
 
+        name = []
+        print("""
+        **************************************************
+        |----------HIT ENTER TO RETURN TO MENU-----------|
+        **************************************************
+        
+        """)
+        n = input()
+        name.append(n)
+        if type(name) is list:
+            Vector.menu_option()
+
     @classmethod
     def description(cls):
+        os.system('cls||clear')
         print("""
 
         *******************************************
@@ -51,6 +101,7 @@ class Vector:
         |            vector quantities            |
         |                                         |
         |         Hit Enter to Continue:          |
+        |                                         |
         |_________________________________________|
 
         """)
@@ -63,6 +114,7 @@ class Vector:
 
     @classmethod
     def menu_option(cls):
+        os.system('cls||clear')
         print("""
 
         **************************************************
