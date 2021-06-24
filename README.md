@@ -1,6 +1,6 @@
 # Vector-CLI
 
-
+![](https://raw.githubusercontent.com/kunal-mahatha/Vector-CLI/main/img/Vector-CLI.gif?token=APVZASYVYFGDNPZON4IRPTTA3YHNS)
 
 ## About the Tool
 This is a CLI tool for operation on Vector Quantities.
