@@ -7,9 +7,9 @@ This is a CLI tool for operation on Vector Quantities.
 
 ## Features
  - Finds position vector from given two different points in a space.
- - Finds Magnitude of a Vector.
- - Finds Direction of a Vector.
- - Check whether the given two vectors are Perpendicular or not.
+ - Obtains Magnitude of a Vector.
+ - Detects Direction of a Vector.
+ - Checks whether the given two vectors are Perpendicular or not.
  
  ### Usage
  To use this :
