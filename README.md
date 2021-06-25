@@ -46,7 +46,7 @@ This is a CLI tool for operation on Vector Quantities.
   ```
 
 
-[![MasterHead](https://raw.githubusercontent.com/kunal-mahatha/Vector-CLI/main/img/4.jpg)](https://username.github.io)
+[![MasterHead](https://github.com/kunal-mahatha/Vector-CLI/blob/main/img/4.jpg)](https://username.github.io)
 
   - Hit Enter to continue
   ```python
@@ -57,7 +57,7 @@ This is a CLI tool for operation on Vector Quantities.
 
   ## Exploring the Menu Options
   
-  [![MasterHead](https://raw.githubusercontent.com/kunal-mahatha/Vector-CLI/main/img/5.jpg)](https://username.github.io)
+  [![MasterHead](https://github.com/kunal-mahatha/Vector-CLI/blob/main/img/5.jpg)](https://username.github.io)
   
    ### 1. Find the Position Vector
    - Type "1"
