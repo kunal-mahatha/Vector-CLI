@@ -12,6 +12,9 @@ This is a CLI tool for operation on Vector Quantities.
  - Checks whether the given two vectors are Perpendicular or not.
  
  ### Usage
+ 
+ ![](https://raw.githubusercontent.com/kunal-mahatha/Vector-CLI/main/img/demonstration.gif?token=APVZAS6OIHELIGUY3DVMUG3A33ADK)
+ 
  To use this :
   - Clone the Repository
   ```python3
@@ -121,6 +124,8 @@ This is a CLI tool for operation on Vector Quantities.
    ```python
    Enter your Choice : 5
    ```
+
+   
  ---
    
    ## JFK ( Just for Knowledge )
