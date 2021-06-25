@@ -86,7 +86,7 @@ This is a CLI tool for operation on Vector Quantities.
    ```python
    The Magnitude of the Vector is  3.74
    ```
-   ## 3. Find if the vectors are perpendicular
+   ### 3. Find if the vectors are perpendicular
    - Type "3"
    ```python
    Enter your Choice : 3
