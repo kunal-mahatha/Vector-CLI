@@ -10,6 +10,12 @@ This is a CLI tool for operation on Vector Quantities.
  - Obtains Magnitude of a Vector.
  - Detects Direction of a Vector.
  - Checks whether the given two vectors are Perpendicular or not.
+
+## Dependency
+ - Install pyinstaller for creating executable file
+```python3
+pip install pyinstaller
+```
  
  ### Usage
  
