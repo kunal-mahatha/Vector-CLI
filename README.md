@@ -136,7 +136,7 @@ pip install pyinstaller
    
    ## JFK ( Just for Knowledge )
    
-   ### What is a scaler ?
+   ### What is a scalar ?
    **A Scalar** or **Scalar Quantity** is a quantity that can be described by a single element of a number field, such as a real number, often accompanied by units of measurement
    
    ### What is a vector ?
