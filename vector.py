@@ -128,9 +128,10 @@ class Vector:
 
         x, y, z = input("""        Enter the position vector separated by comma : """).split(',')
         a = int(x)**2 + int(y)**2 + int(z)**2
-        i = int(x)/a
-        j = int(y)/a
-        k = int(z)/a
+        b = a**0.5
+        i = int(x)/b
+        j = int(y)/b
+        k = int(z)/b
         print(f"""
         **************************************************
               The Direction of the vector is along 
