@@ -25,13 +25,9 @@ class Vector:
 
         """)
 
-        x1, y1, z1 = input("""
-        Enter the position 1 : 
-        """).split(',')
+        x1, y1, z1 = input("""        Enter the position 1 : """).split(',')
 
-        x2, y2, z2 = input("""
-        Enter the position 2 : 
-        """).split(',')
+        x2, y2, z2 = input("""        Enter the position 2 : """).split(',')
         
         a = int(x1) - int(x2)
         b = int(y1) - int(y2)
@@ -75,13 +71,9 @@ class Vector:
 
         """)
 
-        x1, y1, z1 = input("""
-        Enter the position 1 : 
-        """).split(',')
+        x1, y1, z1 = input("""        Enter the position 1 : """).split(',')
 
-        x2, y2, z2 = input("""
-        Enter the position 2 : 
-        """).split(',')
+        x2, y2, z2 = input("""        Enter the position 2 : """).split(',')
 
         a = int(x1)*int(x2) + int(y1)*int(y2) + int(z1)+int(z2)
         if a == 0:
@@ -134,9 +126,7 @@ class Vector:
         """)
 
 
-        x, y, z = input("""
-        Enter the position vector separated by comma : 
-        """).split(',')
+        x, y, z = input("""        Enter the position vector separated by comma : """).split(',')
         a = int(x)**2 + int(y)**2 + int(z)**2
         i = int(x)/a
         j = int(y)/a
@@ -180,9 +170,7 @@ class Vector:
 
         """)
 
-        x, y, z = input("""
-        Enter the position vector separated by comma : 
-        """).split(',')
+        x, y, z = input("""        Enter the position vector separated by comma : """).split(',')
         a = int(x)**2 + int(y)**2 + int(z)**2
         print(f"""
         **************************************************
@@ -250,9 +238,7 @@ class Vector:
 
         """)
 
-        num = int(input("""
-        Enter your Choice : 
-        """))
+        num = int(input("""        Enter your Choice : """))
 
         if num == 1:
             Vector.pos_vector()
