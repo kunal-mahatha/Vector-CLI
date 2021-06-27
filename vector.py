@@ -250,6 +250,19 @@ class Vector:
         elif num == 3:
             Vector.is_perpendicular()
         elif num == 5:
+            os.system('cls||clear')
+            print("""
+        **************************************************
+        |-----------Thankyou For Using Vector------------|
+        **************************************************
+        |                                                |
+        |            To Contribute to Vector,            |
+        |         Visit the Vector-CLI Repository        |
+        |   https://github.com/kunal-mahatha/Vector-CLI  |
+        |                                                |
+        |________________________________________________|
+
+        """)
             quit()
         else:
             print("""
