@@ -10,8 +10,17 @@ This is a CLI tool for operation on Vector Quantities.
  - Obtains Magnitude of a Vector.
  - Detects Direction of a Vector.
  - Checks whether the given two vectors are Perpendicular or not.
+
+## Dependency
+ - Install pyinstaller for creating executable file
+```python3
+pip install pyinstaller
+```
  
  ### Usage
+ 
+ ![](https://raw.githubusercontent.com/kunal-mahatha/Vector-CLI/main/img/demonstration.gif?token=APVZAS6OIHELIGUY3DVMUG3A33ADK)
+ 
  To use this :
   - Clone the Repository
   ```python3
@@ -43,7 +52,7 @@ This is a CLI tool for operation on Vector Quantities.
   ```
 
 
-[![MasterHead](https://raw.githubusercontent.com/kunal-mahatha/Vector-CLI/main/img/1.jpg?token=APVZAS7XM6H6IFDJKP7VHEDA3X3XO)](https://username.github.io)
+[![MasterHead](https://github.com/kunal-mahatha/Vector-CLI/blob/main/img/4.jpg)](https://username.github.io)
 
   - Hit Enter to continue
   ```python
@@ -54,7 +63,7 @@ This is a CLI tool for operation on Vector Quantities.
 
   ## Exploring the Menu Options
   
-  [![MasterHead](https://raw.githubusercontent.com/kunal-mahatha/Vector-CLI/main/img/2.jpg?token=APVZAS276FUA2OK36REFPB3A3X334)](https://username.github.io)
+  [![MasterHead](https://github.com/kunal-mahatha/Vector-CLI/blob/main/img/5.jpg)](https://username.github.io)
   
    ### 1. Find the Position Vector
    - Type "1"
@@ -86,7 +95,7 @@ This is a CLI tool for operation on Vector Quantities.
    ```python
    The Magnitude of the Vector is  3.74
    ```
-   ## 3. Find if the vectors are perpendicular
+   ### 3. Find if the vectors are perpendicular
    - Type "3"
    ```python
    Enter your Choice : 3
@@ -121,11 +130,13 @@ This is a CLI tool for operation on Vector Quantities.
    ```python
    Enter your Choice : 5
    ```
+
+   
  ---
    
    ## JFK ( Just for Knowledge )
    
-   ### What is a scaler ?
+   ### What is a scalar ?
    **A Scalar** or **Scalar Quantity** is a quantity that can be described by a single element of a number field, such as a real number, often accompanied by units of measurement
    
    ### What is a vector ?
