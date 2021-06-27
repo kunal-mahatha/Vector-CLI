@@ -242,17 +242,33 @@ class Vector:
 
         if num == 1:
             Vector.pos_vector()
-        if num == 2:
+        elif num == 2:
             Vector.magnitude()
-        if num == 4:
+        elif num == 4:
             Vector.direction()
-        if num == 3:
+        elif num == 3:
             Vector.is_perpendicular()
-        if num == 5:
+        elif num == 5:
             quit()
-        if num > 5:
-            print("Please Enter Valid Input")
-        Vector.menu_option()
+        else:
+            print("""
+        |------------------IMPORTANT---------------------|
+                   Please Enter Valid Input
+                         from 1 to 5
+        |------------------------------------------------|
+            """)
+            name = []
+            print("""
+
+        **************************************************
+        |----------HIT ENTER TO RETURN TO MENU-----------|
+        **************************************************
+            
+            """)
+            n = input()
+            name.append(n)
+            if type(name) is list:
+                Vector.menu_option()
         
 
 Vector.description()
