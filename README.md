@@ -138,8 +138,10 @@ pip install pyinstaller
 
    
  ---
- ## Future Implementation
+ ## COMING SOON !!
  I aim to make a data structure for visual vector operations from scratch like sympy, numpy, etc. for python.
+ - One can do every vector operation
+ - One can visualise those in graphical manner
  
  ---
    
