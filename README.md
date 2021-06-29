@@ -67,6 +67,17 @@ pip install pyinstaller
   
   [![MasterHead](https://github.com/kunal-mahatha/Vector-CLI/blob/main/img/5.jpg)](https://username.github.io)
   
+  #
+  
+  Options | Feature | Explaination
+  :---:|:--- |:---
+  1 | Find the Position Vector | Takes two points in space and finds the position vector
+  2 | Find the Magnitude of the Vector | Takes the position vector and finds its magnitude
+  3 | Find if the vectors are perpendicular     | Takes two vectors and checks whether they are perpendicular or not
+  4 | Find the Direction of the vector | Takes the vector and finds the unit vector
+  5 | Exit | 
+  #
+  
    ### 1. Find the Position Vector
    - Type "1"
    ```python
