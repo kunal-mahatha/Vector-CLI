@@ -7,6 +7,7 @@ This is a CLI tool for operation on Vector Quantities.
 
 ## Features
  - Finds position vector from given two different points in a space.
+ 
  - Obtains Magnitude of a Vector.
  - Detects Direction of a Vector.
  - Checks whether the given two vectors are Perpendicular or not.
@@ -140,7 +141,9 @@ pip install pyinstaller
  ---
  ## COMING SOON !!
  I aim to make a data structure for visual vector operations from scratch like sympy, numpy, etc. for python.
+ 
  - One can do every vector operation
+ 
  - One can visualise those in graphical manner
  
  ---
